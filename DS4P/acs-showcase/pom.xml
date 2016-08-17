@@ -19,7 +19,7 @@
 		<module>c32-parser</module>
 		<module>pix-client</module>
 		<module>web-bl</module>
-		<module>web-pg</module>
+		<!--module>web-pg</module-->
 		<module>hl7-gen</module>
 	</modules>
 

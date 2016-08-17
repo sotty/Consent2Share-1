@@ -77,6 +77,12 @@
 		<dependency>
 			<groupId>net.taldius</groupId>
 			<artifactId>libclamav</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.owasp.esapi</groupId>
@@ -114,10 +120,10 @@
 			<artifactId>commons-digester</artifactId>
 			<groupId>commons-digester</groupId>
 		</dependency>
-		<dependency>
+		<!--dependency>
 			<groupId>com.lowagie</groupId>
 			<artifactId>itext</artifactId>
-		</dependency>
+		</dependency-->
 		<dependency>
 			<groupId>org.olap4j</groupId>
 			<artifactId>olap4j</artifactId>

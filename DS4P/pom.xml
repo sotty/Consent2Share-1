@@ -63,6 +63,12 @@
 			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
 		</repository>
 		<repository>
+			<id>linpki</id>
+			<name></name>
+			<url>http://repo.linpki.org/nexus/content/repositories/public</url>
+
+		</repository>
+		<repository>
 			<id>spring-roo-repository</id>
 			<name>Spring Roo Repository</name>
 			<url>http://spring-roo-repository.springsource.org/release/</url>
@@ -91,12 +97,12 @@
 			<id>onejar-maven-plugin.googlecode.com</id>
 			<url>http://onejar-maven-plugin.googlecode.com/svn/mavenrepo</url>
 		</pluginRepository>
-		<pluginRepository>
+		<!--pluginRepository>
 			<id>tlc</id>
 			<name>TLC Repository</name>
 
 			<url>http://commons.ucalgary.ca/pub/m2</url>
-		</pluginRepository>
+		</pluginRepository-->
 
 		<pluginRepository>
 			<id>wso2-maven2-repository</id>
@@ -107,7 +113,7 @@
 	<modules>
 		<module>common-unit</module>
 
-		<module>spirit-client-pg</module>
+		<!--module>spirit-client-pg</module-->
 
 		<module>access-control-service</module>
 
@@ -258,7 +264,7 @@
 		<xalan.version>2.7.2</xalan.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<jsr311-api.version>1.1.1</jsr311-api.version>
-		<herasaf.version>1.0.0.M3</herasaf.version>
+		<herasaf.version>1.0.3.RELEASE</herasaf.version>
 
 		<json-path.version>0.8.1</json-path.version>
 		<spring-ws-core.version>2.1.4.RELEASE</spring-ws-core.version>

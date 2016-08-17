@@ -126,12 +126,12 @@
 			<id>onejar-maven-plugin.googlecode.com</id>
 			<url>http://onejar-maven-plugin.googlecode.com/svn/mavenrepo</url>
 		</pluginRepository>
-		<pluginRepository>
+		<!--pluginRepository>
 			<id>tlc</id>
 			<name>TLC Repository</name>
 
-			<url>http://commons.ucalgary.ca/pub/m2</url>
-		</pluginRepository>
+				<url>http://commons.ucalgary.ca/pub/m2</url>
+		</pluginRepository-->
 
 		<pluginRepository>
 			<id>wso2-maven2-repository</id>

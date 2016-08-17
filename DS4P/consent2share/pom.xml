@@ -25,7 +25,7 @@
 		<module>bl</module>
 
 		<!-- pg projects -->
-		<module>pg</module>
+		<!--module>pg</module-->
 	</modules>
 
 </project>
