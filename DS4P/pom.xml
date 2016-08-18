@@ -301,6 +301,13 @@
 		<poi-ooxml.version>3.11</poi-ooxml.version>
 		<!-- JasperReports properties End -->
 
+
+		<!-- Test properties -->
+		<maven.guvnor.username></maven.guvnor.username>
+		<maven.guvnor.password></maven.guvnor.password>
+		<maven.guvnor.service>http://localhost:9090/guvnor_webapp</maven.guvnor.service>
+		<maven.jettyServerPortForTesing.number>9090</maven.jettyServerPortForTesing.number>
+
 	</properties>
 
 	<dependencyManagement>
